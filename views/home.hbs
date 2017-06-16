@@ -3,15 +3,17 @@
 <head>
   <meta charset="utf-8">
   <title>Home Page</title>
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css">
 </head>
 <body>
 <!-- <header>Hello their this is my header</header>
  -->
-  <!-- <header>{{> header}}</header> -->
   {{> header}}
-
-  <p>{{screamIt welcomeMessage}}</p>
-
+  <div class="container text-center" style="background-color: red;padding-left: 0px;padding-right: 0px;padding-top: 250px;padding-bottom: 150px;/* margin-left: 0px; *//* margin-right: 0px; */">
+    <p>{{screamIt welcomeMessage}}</p>
   {{> footer}}
+  </div>
+
+
 </body>
 </html>
